@@ -1,8 +1,21 @@
 #footer {
     margin-top: auto;
-    height: 75px;
+    height: 110px;
     display: flex;
     background-color: goldenrod;
     align-items: center;
     justify-content: center;
+}
+
+#footer a{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#git {
+    height: 75px;
+}
+
+#linked {
+    height: 75px;
 }
