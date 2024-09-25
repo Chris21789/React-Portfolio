@@ -5,8 +5,8 @@ const Project = ({ title, imgUrl, linkUrl }) => {
         <div id='Project'>
             <a href={linkUrl}>
                 <img src={imgUrl} />
-            </a>
             <h3>{title}</h3>
+            </a>
         </div>
     );
 };
