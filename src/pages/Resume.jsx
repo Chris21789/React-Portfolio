@@ -4,6 +4,7 @@ export default function Resume() {
   return (
     <div id='Resume'>
       <h1>Resume</h1>
+      <h3>Resume link coming soon.</h3>
       <h2>Developer's Proficiencies </h2>
       <ul className='proficiencies'>
         <li>HTML</li>
