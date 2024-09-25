@@ -1,26 +1,23 @@
-#header .active {
-    background-color: black;
-    color: white;
-}
-
 #header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: goldenrod;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #header .title {
-    font-size: 4rem;
-    margin: 1rem;
+    font-size: 2.5rem;
     font-weight: bold;
     text-decoration: none;
-    color: black;
-    padding-left: 2rem;
+    color: #333;
+    padding-left: 1rem;
 }
+
 #header ul {
     display: flex;
-    padding-right: 2rem;
+    padding-right: 1rem;
 }
 
 #header ul li {
@@ -28,16 +25,50 @@
 }
 
 #header ul li a {
-    font-size: 2rem;
-    display: block;
+    font-size: 1.5rem;
     text-decoration: none;
-    color: black;
-    padding: .5rem;
-    margin: .5rem;
-    border-radius: .5rem;
+    color: #333;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 #header ul li a:hover {
-    background-color: black;
+    background-color: #333;
     color: white;
+}
+
+#header .active {
+    background-color: #b8860b; /* Slightly darker goldenrod for active link */
+    color: white;
+}
+
+@media (max-width: 768px) {
+    #header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #header .title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #header ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    #header ul li {
+        margin: 0.5rem 0;
+    }
+
+    #header ul li a {
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: center;
+        padding: 0.75rem 0;
+    }
 }

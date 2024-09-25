@@ -28,10 +28,6 @@ A professional portfolio created with React that can showcase my work, display i
 
 If you have any questions about the repo, open an issue or contact me directly at ccolon.seo@gmail.com. You can find more of my work at [https://www.github.com/Chris21789](https://www.github.com/Chris21789).
 
-
-WHEN I am presented with the About Me section
-THEN I see a recent photo or avatar of the developer and a short bio about them
-
 WHEN I am presented with the Portfolio section
 THEN I see titled images of six of the developer’s applications with links to both the deployed 
 applications and the corresponding GitHub repositories
@@ -44,6 +40,3 @@ THEN I receive a notification that this field is required
 
 WHEN I enter text into the email address field
 THEN I receive a notification if I have entered an invalid email address
-
-WHEN I am presented with the Resume section
-THEN I see a link to a downloadable resume and a list of the developer’s proficiencies

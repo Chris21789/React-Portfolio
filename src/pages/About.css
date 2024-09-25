@@ -1,0 +1,35 @@
+#About {
+    background-color: #f4f4f9; 
+    color: #333;
+    padding: 2rem; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    margin: 2rem auto; 
+  }
+  
+ #About h1 {
+    font-size: 2.5rem; 
+    margin-bottom: 1rem; 
+    color: goldenrod; 
+  }
+  
+#About p {
+    font-size: 1.1rem; 
+    line-height: 1.6; 
+    margin-bottom: 1.5rem; 
+  }
+  
+  @media (max-width: 600px) {
+    #About {
+      padding: 1rem; 
+    }
+  
+    h1 {
+      font-size: 2rem; 
+    }
+  
+    p {
+      font-size: 1rem; 
+    }
+  }
