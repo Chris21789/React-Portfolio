@@ -33,7 +33,19 @@
     transition: border-color 0.3s;
 }
 
+#Contact textarea {
+    padding: 0.5rem; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    transition: border-color 0.3s;
+}
+
 #Contact input:focus {
+    border-color: goldenrod;
+    outline: none;
+}
+
+#Contact textarea:focus {
     border-color: goldenrod;
     outline: none;
 }
