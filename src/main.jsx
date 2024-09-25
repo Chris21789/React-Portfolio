@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom/client";
 import { createBrowerRoute, RouterProvider } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./index.css";
+import "bootstrap/dist/css/bootstrap.min.css"
+// import "./index.css";
 import App from "./App";
 import Error from "./pages/Error";
 import AboutMe from "./pages/AboutMe";

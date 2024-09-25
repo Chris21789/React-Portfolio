@@ -1,8 +1,8 @@
 export default function Resume() {
   return (
-    <>
+    <div>
       <h1>Resume Page</h1>
       <p>Test text for Resume page</p>
-    </>
+    </div>
   );
 }
