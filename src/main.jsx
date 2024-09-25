@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import { createBrowerRoute, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"
 // import "./index.css";
 import App from "./App";
@@ -9,9 +9,9 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 
-const router = createBrowerRoute([
+const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/React-Portfolio",
     element: <App />,
     errorElement: <Error />,
     children: [
@@ -20,15 +20,15 @@ const router = createBrowerRoute([
         element: <AboutMe />,
       },
       {
-        path: "/Portfolio",
+        path: "/React-Portfolio/Portfolio",
         element: <Portfolio />,
       },
       {
-        path: "/Contact",
+        path: "/React-Portfolio/Contact",
         element: <Contact />,
       },
       {
-        path: "/Resume",
+        path: "/React-Portfolio/Resume",
         element: <Resume />,
       },
     ],

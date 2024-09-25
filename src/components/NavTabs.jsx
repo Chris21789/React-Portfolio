@@ -7,17 +7,17 @@ function NavTabs() {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <Link
-          to="/"
-          className={currentPage === "/" ? "nav-link active" : "nav-link"}
+          to="/React-Portfolio"
+          className={currentPage === "/React-Portfolio" ? "nav-link active" : "nav-link"}
         >
           About Me
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/Portfolio"
+          to="/React-Portfolio/Portfolio"
           className={
-            currentPage === "/Portfolio" ? "nav-link active" : "nav-link"
+            currentPage === "/React-Portfolio/Portfolio" ? "nav-link active" : "nav-link"
           }
         >
           Portfolio
@@ -25,9 +25,9 @@ function NavTabs() {
       </li>
       <li>
         <Link
-          to="/Contact"
+          to="/React-Portfolio/Contact"
           className={
-            currentPage === "/Contact" ? "nav-link active" : "nav-link"
+            currentPage === "/React-Portfolio/Contact" ? "nav-link active" : "nav-link"
           }
         >
           Contact Me
@@ -35,8 +35,8 @@ function NavTabs() {
       </li>
       <li>
         <Link
-          to="/Resume"
-          className={currentPage === "/Resume" ? "nav-link active" : "nav-link"}
+          to="/React-Portfolio/Resume"
+          className={currentPage === "/React-Portfolio/Resume" ? "nav-link active" : "nav-link"}
         >
           Resume
         </Link>
