@@ -1,10 +1,8 @@
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css"
-// import "./index.css";
 import App from "./App";
 import Error from "./pages/Error";
-import AboutMe from "./pages/AboutMe";
+import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
@@ -17,7 +15,11 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <AboutMe />,
+        element: <About />,
+      },
+      {
+        path: "/React-Portfolio/About",
+        element: <About />,
       },
       {
         path: "/React-Portfolio/Portfolio",

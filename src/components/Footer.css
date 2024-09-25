@@ -1,0 +1,8 @@
+#footer {
+    margin-top: auto;
+    height: 75px;
+    display: flex;
+    background-color: goldenrod;
+    align-items: center;
+    justify-content: center;
+}
