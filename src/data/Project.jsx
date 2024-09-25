@@ -2,7 +2,7 @@ import React from "react";
 
 const Project = ({ title, imgUrl, linkUrl }) => {
     return (
-        <div>
+        <div id='Project'>
             <a href={linkUrl}>
                 <img src={imgUrl} />
             </a>

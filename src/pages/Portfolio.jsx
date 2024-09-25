@@ -1,4 +1,5 @@
 import Project from "../data/Project";
+import './Portfolio.css';
 
 const projects = [
   {
@@ -35,9 +36,9 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <div>
+    <div id='Portfolio'>
       <h2>My Projects</h2>
-      <div>
+      <div className="project-grid">
         {projects.map((project, index) => (
           <Project
             key={index}
