@@ -16,22 +16,22 @@ const projects = [
   {
       title: 'Task Board',
       imgUrl: taskBoard,
-      linkUrl: 'https://github.com/Chris21789/Task-Board',
+      linkUrl: 'https://chris21789.github.io/Task-Board/',
   },
   {
       title: 'Weather Dashboard',
       imgUrl: weather,
-      linkUrl: 'https://github.com/Chris21789/Weather-Dashboard',
+      linkUrl: 'https://chris21789.github.io/Weather-Dashboard/',
   },
   {
       title: 'Personal Blog',
       imgUrl: blog,
-      linkUrl: 'https://github.com/Chris21789/Personal-Blog',
+      linkUrl: 'https://chris21789.github.io/Personal-Blog/',
   },
   {
       title: 'Flop Films',
       imgUrl: flop,
-      linkUrl: 'https://github.com/Chris21789/Flop-Films',
+      linkUrl: 'https://group12-project1.github.io/Flop-Films/',
   },
   {
       title: 'Employee Tracker',
